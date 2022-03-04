@@ -27,7 +27,7 @@ for v,k in sorted(lst,reverse=True):
 
 #Finding Top ten words
 if not len(dic)==0:
-    UI2=input('Do you want to filtre the top ten strats with searched letter? Type Yes or No:\n')
+    UI2=input('Do you want to filtre the top ten strated with searched letter? Type Yes or No:\n')
     if UI2=='Yes':
         for v,k in sorted(lst[0:10],reverse=True):
             print(k,v)
